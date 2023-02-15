@@ -13,7 +13,7 @@ repositories = []
 
 query = '''
 query {
-  search(query: "stars:>1", type: REPOSITORY, first: 10) {
+  search(query: "stars:>1", type: REPOSITORY, first: 100) {
     repositoryCount
     edges {
       node {
