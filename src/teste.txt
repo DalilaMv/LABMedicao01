@@ -1,0 +1,79 @@
+Estatísticas para a coluna Idade (anos)
+Média: 7.51075
+Moda: 6.64
+Mediana: 7.495
+Desvio padrão: 2.896507810276885
+
+Estatísticas para a coluna PRs Aprovados
+Média: 2442.907
+Moda: 0
+Mediana: 467.0
+Desvio padrão: 6658.9330358193665
+
+Estatísticas para a coluna Releases
+Média: 74.713
+Moda: 0
+Mediana: 24.0
+Desvio padrão: 143.05022893724777
+
+Estatísticas para a coluna Dias sem Update
+Média: 0.008
+Moda: 0
+Mediana: 0.0
+Desvio padrão: 0.0997293635091789
+
+Estatísticas para a coluna Razão de Issues Fechadas
+Média: 0.76841
+Moda: 0.99
+Mediana: 0.86
+Desvio padrão: 0.25854170981819496
+
+Estatísticas para a coluna Linguagem Primária
+Moda: JavaScript
+Quantidade de vezes que cada linguagem aparece na amostra:
+JavaScript          212
+Python              117
+Unkutcnown          111
+TypeScript          110
+Go                   75
+Java                 69
+C++                  54
+C                    29
+Rust                 25
+HTML                 23
+Shell                22
+Ruby                 18
+Swift                17
+Jupyter Notebook     15
+C#                   13
+Kotlin               11
+PHP                  11
+CSS                   9
+Vue                   7
+Vim Script            5
+Dart                  4
+Clojure               4
+Objective-C           4
+TeX                   3
+SCSS                  3
+Haskell               3
+Makefile              3
+Markdown              3
+Zig                   2
+Lua                   2
+Batchfile             2
+Roff                  1
+Emacs Lisp            1
+Jinja                 1
+OCaml                 1
+Elixir                1
+AsciiDoc              1
+Nunjucks              1
+V                     1
+Scala                 1
+Julia                 1
+Assembly              1
+Dockerfile            1
+Astro                 1
+Objective-C++         1
+Name: Linguagem Primária, dtype: int64
