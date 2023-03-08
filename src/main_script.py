@@ -4,6 +4,7 @@ import os
 from datetime import datetime
 from dotenv import load_dotenv
 import csv
+import pandas as pd
 
 load_dotenv()
 
@@ -85,10 +86,11 @@ while count < 1000:
             data.append(row)
         print(count)
     else:
-        print('Error:', response.content)
+        continue
 
 with open('resultados.csv', 'w', newline='') as file:
     writer = csv.writer(file)
     writer.writerow(['Número', 'Nome', 'Estrelas', 'Idade (anos)', 'PRs Aprovados', 'Releases', 'Dias sem Update', 'Linguagem Primária', 'Razão de Issues Fechadas'])
     for row in data:
         writer.writerow(row)
+
